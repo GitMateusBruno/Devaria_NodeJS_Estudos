@@ -1,0 +1,35 @@
+.inline {
+    background-color: red;
+    display: inline;
+    height: 300px;
+    width: 300px;
+    margin: 300px;
+    flex: 3;
+}
+
+.block {
+    background-color: blue;
+    block-size: auto;
+    flex: 1;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: yellow;
+   height: 50px;
+   width: 50px;
+   flex: 1;
+}
+
+.none {
+    display: none;
+    background-color: green
+    
+    }
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
