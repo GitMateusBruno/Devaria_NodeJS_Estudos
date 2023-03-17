@@ -1,0 +1,111 @@
+.cabeçalho{
+    color: #fcb900;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.imagem{
+    position: absolute;
+    top: 43%;
+    left: 70%;
+    transform: translate(-40%, -40);
+    opacity: 1;
+    height: 350px;
+
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: tahoma;
+    
+}
+
+#texto1 {
+    background-color: #304D63;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    
+    }
+
+#texto2 {
+    background-color: #2BE7E8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: black;
+    font-family: Tahoma;
+    font-weight: bold;
+       
+   }
+
+   #texto3 {
+    background-color: #8FB9AA;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: black;
+    font-family: Tahoma;
+    font-weight: bold;
+               
+   }
+
+   #texto4 {
+    background-color: #F2D096;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: black;
+    font-family: Tahoma;
+    font-weight: bold;
+              
+   }
+
+   #texto5 {
+    background-color: #ED8975;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: black;
+    font-family: Tahoma;
+    font-weight: bold;
+              
+   }
+
+   #texto6 {
+    background-color: #357599;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: black;
+    font-family: Tahoma;
+    font-weight: bold;
+        
+   }
+
+   .primeira {
+    color: white;
+    font-size:  15px;
+    font-family: tahoma;
+   }
+
+  
+   body {
+    background-color:#9b51e0
+   }
