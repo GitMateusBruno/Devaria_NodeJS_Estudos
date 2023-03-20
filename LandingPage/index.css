@@ -1,0 +1,25 @@
+.logo{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 368px;
+    top: 18px;  
+}
+
+.profissional{
+    position: absolute;
+    width: 304px;
+    height: 293px;
+    left: 1000px;
+    top: 194px;
+    border-radius: 500000px;
+}
+
+.mbss{
+    position: absolute;
+    width: 495px;
+    height: 293px;
+    top: 194px;
+    left: 199px;
+    position: center;
+}
