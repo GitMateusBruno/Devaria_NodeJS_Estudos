@@ -1,25 +1,134 @@
-.logo{
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #000000 16.62%, #C89116 85.61%);
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+#logo{
     position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
     width: 62px;
     height: 62px;
-    left: 368px;
-    top: 18px;  
 }
 
-.profissional{
-    position: absolute;
-    width: 304px;
-    height: 293px;
-    left: 1000px;
-    top: 194px;
-    border-radius: 500000px;
+.cabecalho-menu{
+    display: flex;
+    gap: 20px;
 }
 
-.mbss{
-    position: absolute;
-    width: 495px;
-    height: 293px;
-    top: 194px;
-    left: 199px;
-    position: center;
+.cabecalho-menu-item{
+    font-family: Tahoma;
+    color: white;
+    font-weight: 180px;
+    font-size: 15px;
+   
 }
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7
+}
+
+.conteudo-princial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-pincipal-titulo{
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 34px;
+    color: white;
+}
+
+.contud-principal-subtitulo{
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.contudo-principal-escrito-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.contudo-principal-escrito-botao{
+    background-color: #ECD6C4;
+    width: 120px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4 px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+    .conteudo-secundario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        color: white;
+        font-family: tahoma;
+        font-size: 18px;
+       
+
+    }
+
+    .conteudo-secudario-titulo{
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        color: white;
+        font-weight: 400;
+        font-size: 24px;
+        font-family: Tahoma;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-secundario-paragrafo{
+        font-family: Tahoma;
+        font-weight: 300;
+        font-size: 18px;
+        color: #ECD6C4;
+    }
+
+    .rodape{
+        padding: 32px;
+        border-top: 0.4px solid #FFF2E7;
+    }
+
+    .mbss{
+        height: 200px;
+        display: block;
+        max-width: 0 auto;        
+    }
